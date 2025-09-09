@@ -4,128 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>De Anza MSA - Muslim Student Association</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="palestine-banner">
-            🇵🇸🇵🇸🇵🇸 De Anza MSA stands with Palestine 🇵🇸🇵🇸🇵🇸
-        </div>
-        <div class="header-content">
-            <div class="logo-section">
-                <h1>DE ANZA MSA</h1>
-                <p>Muslim Student Association</p>
-            </div>
-            <nav class="main-nav">
-                <a href="#about">ABOUT</a>
-                <a href="#events">EVENTS</a>
-                <a href="#new-students">NEW STUDENTS</a>
-                <a href="#resources">RESOURCES</a>
-                <div class="dropdown">
-                    <span>MORE ▼</span>
-                    <div class="dropdown-content">
-                        <a href="#accommodations">EID & RAMADAN ACCOMMODATIONS</a>
-                        <a href="#spaces">SPACES</a>
-                        <a href="#housing">HOUSING ASSISTANCE</a>
-                        <a href="#faq">FREQUENTLY ASKED QUESTIONS</a>
-                        <a href="#basic-needs">BASIC NEEDS</a>
-                        <a href="#jobs">JOBS & OPPORTUNITIES</a>
-                        <a href="#ramadan">RAMADAN 2021</a>
-                        <a href="#black-history">BLACK HISTORY</a>
-                    </div>
-                </div>
-                <a href="#contact">CONTACT</a>
-            </nav>
-        </div>
-    </header>
+    <div class="palestine-banner">
+        Building bridges, strengthening bonds 
+    </div>
 
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">DE ANZA MSA</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
     <main>
-        <section class="hero-section">
-            <div class="hero-content">
-                <div class="welcome-card">
-                    <div class="artboard-placeholder">
-                        <p>Artboard.png</p>
-                    </div>
-                    <h2>Congratulations and Welcome!</h2>
-                    <p>Congratulations and welcome to De Anza College and De Anza MSA! We're so happy to see all your hard work and struggle be rewarded — we're thrilled to welcome you to our college. You've done your part. Now it's time for us to show you why you need to come to De Anza College.</p>
-                    <a href="#" class="cta-button">JOIN THE FACEBOOK GROUP</a>
+        <section class="hero-new-section" id="home">
+            <div class="hero-content-left">
+                <div class="welcome-box">
+                    <span>Welcome to De Anza MSA</span>
                 </div>
-                <div class="community-image">
-                    <div class="placeholder-image">
-                        <p>IMG_0375.jpg</p>
+                <h2>Building the Islamic Community</h2>
+                <p>Join the De Anza Muslim Student Association - where faith meets fellowship, learning meets action, and brothers and sisters unite in purpose.</p>
+                <div class="hero-buttons">
+                    <a href="https://www.instagram.com/deanzamsa/" class="hero-button-join" target="_blank">Follow Our Instagram →</a>
+                    <a href="about.html" class="hero-button-learn">Learn More</a>
+                </div>
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span>100+</span>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="stat">
+                        <span>20+</span>
+                        <p>Events Yearly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content-right">
+                <div class="hero-card-new">
+                    <h3>New Student? Salam!</h3>
+                    <p>We're excited to welcome you to our Muslim community. Connect with fellow students, join our events, and make friendships which we promise will last forever.</p>
+                    <div class="card-buttons">
+                        <a href="https://linktr.ee/deanzamsa?fbclid=PAZXh0bgNhZW0CMTEAAafY1LSaBZHveAzGmwSi66VnpPGHFOPfzLwQ59IoOknsgFYK5w8WX4h_f2vqJQ_aem_ZbzWnVH2q9R7ReKXdp8Y7w" class="card-button-discord" target="_blank">Join Our Discord Community</a>
+                        <a href="https://quran.com" class="card-button">Browse Study Resources</a>
                     </div>
                 </div>
             </div>
         </section>
+       <!-- 
+        <section class="programs-section" id="programs">
+            <div class="container">
+                <div class="section-title">
+                    Highlights
+                </div>
+                <h2 class="main-title">Our past <span class="growth-text">highlights</span></h2>
+                <p class="section-subtitle">Join our diverse range of events</p>
 
-        <section class="community-section">
-            <div class="involvement-section">
-                <div class="involvement-grid">
-                    <div class="involvement-card">
-                        <h4>Community →</h4>
-                        <p>Join the MSA! Find Muslim roommates, attend socials with your brothers and sisters, and make a positive impact by joining MSA activities.</p>
+                <div class="program-card-row">
+                    <div class="program-card-image">
+                        <img src="Iftaar.png" alt="MSA members at a iftaar event">
                     </div>
-
-                    <div class="involvement-card">
-                        <h4>Faith →</h4>
-                        <p>Find information about Friday services, Ilm classes, halal food in the area, local Masjid, praying on-campus, and more.</p>
+                    <div class="program-card-content">
+                        <span>Community Service</span>
+                        <h3>Community Outreach</h3>
+                        <p>Make a positive impact through service projects, charity drives, and community engagement initiatives that embody Islamic values.</p>
+                        <ul>
+                            <li>Food Bank Volunteering</li>
+                            <li>Homeless Shelter Support</li>
+                            <li>Campus Clean-up Drives</li>
+                            <li>Charity Fundraisers</li>
+                        </ul>
+                        <div class="program-buttons-row">
+                            <a href="#" class="program-button-gold">Get Involved →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card-row reverse">
+                    <div class="program-card-content">
+                        <span>Islamic Studies</span>
+                        <h3>Islamic Studies & Circles</h3>
+                        <p>Deepen your understanding of Islam through weekly study circles, Quran classes, and Islamic scholarship programs designed for all levels.</p>
+                        <ul>
+                            <li>Weekly Quran Study Circles</li>
+                            <li>Arabic Language Classes</li>
+                            <li>Islamic History & Jurisprudence</li>
+                            <li>Hadith Study Groups</li>
+                        </ul>
+                        <div class="program-buttons-row">
+                            <a href="#" class="program-button-green">Join Study Circle →</a>
+                        </div>
+                    </div>
+                    <div class="program-card-image">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500&h=300&fit=crop" alt="MSA Iftaar dinner">
+                    </div>
+                </div>
+                <div class="program-card-row">
+                    <div class="program-card-image">
+                        <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=500&h=300&fit=crop" alt="MSA members at a park cleanup">
+                    </div>
+                    <div class="program-card-content">
+                        <span>Cultural Arts</span>
+                        <h3>Islamic Arts & Culture</h3>
+                        <p>Explore the rich heritage of Islamic arts, culture, and traditions through workshops, exhibitions, and cultural celebrations.</p>
+                        <ul>
+                            <li>Arabic Calligraphy Workshops</li>
+                            <li>Islamic Art Exhibitions</li>
+                            <li>Cultural Heritage Events</li>
+                            <li>Traditional Crafts Classes</li>
+                        </ul>
+                        <div class="program-buttons-row">
+                            <a href="#" class="program-button-blue">Explore Arts →</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="events-section">
-            <h2>Events</h2>
-            <p>Stay tuned—come back to this page in a few days to find out what events are kicking off the school year! Follow us on our Instagram, Facebook, and newsletter to make sure you never miss anything!</p>
-            <div class="social-buttons">
-                <a href="#" class="social-button">INSTAGRAM</a>
-                <a href="#" class="social-button">FACEBOOK</a>
-                <a href="#" class="social-button">NEWSLETTER</a>
-            </div>
-        </section>
-
-        <section class="contact-section">
-            <h2>Reach Out to Us</h2>
-            <p>Wanna know more about being Muslim at De Anza? Join our Facebook group or contact us below. Please note: MSA Board does not make housing arrangements. Please read our frequently asked questions for a list of helpful resources including where to find the MSA run housing pages!</p>
-            
-            <form class="contact-form">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="firstName">First Name (required)</label>
-                        <input type="text" id="firstName" name="firstName" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastName">
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">Email (required)</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="subject">Subject (required)</label>
-                    <input type="text" id="subject" name="subject" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Message (required)</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                
-                <button type="submit" class="submit-button">SUBMIT</button>
-            </form>
         </section>
     </main>
-
+    Write your comments here --> 
     <footer class="footer">
-        <p>© 2025 De Anza College Muslim Student Association</p>
-        <p>We are a student group acting independently of De Anza College. We take full responsibility for our organization and this web site.</p>
+        <p>© Copyright 2025, All Rights Reserved by De Anza Msa</p>
     </footer>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
