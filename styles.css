@@ -574,3 +574,63 @@ body {
         font-size: 32px;
     }
 }
+
+/* Prayer Times Section */
+.prayer-times-section {
+    padding: 60px 20px;
+    background: #f0f9f7;
+}
+
+.prayer-times-section .container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hijri-date {
+    text-align: center;
+    font-size: 16px;
+    color: #2c5530;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.prayer-times-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px; /* space between rows */
+}
+
+.prayer-times-table tr {
+    background: #f8f9fa;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.prayer-times-table tr:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    border-left: 5px solid #d4ac58;
+}
+
+.prayer-times-table td {
+    padding: 15px 20px;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #333;
+}
+
+.prayer-times-table td .label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #7fb8d3;
+    margin-bottom: 3px;
+}
+
+.prayer-times-table tr.sunrise td {
+    background-color: #f8f9fa; /* match other rows */
+    font-weight: 600;
+    text-align: center;
+    border-left: 5px solid #7fb8d3;
+}
