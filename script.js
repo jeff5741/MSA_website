@@ -30,10 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 const city = "Cupertino";
 const country = "US";
 const method = 2; // ISNA
@@ -47,7 +43,6 @@ fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}&
         const hijri = data.data.date.hijri;
         document.getElementById('hijri-date').innerText = `${hijri.day} ${hijri.month.en} ${hijri.year} H`;
 
-<<<<<<< HEAD
         // i like to keep the timings the same as MCA's (mcabayarea.org)
         // adhan times (you can also add or remove the amount of minutes)
 
@@ -66,24 +61,6 @@ fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}&
 
         // Sunrise time (you can add or remove the amount of minutes)
         document.getElementById('sunrise-time').innerText = addMinutes(timings.Sunrise, 0);
-=======
-        // Adhan times
-        document.getElementById('fajr-adhan').innerText = formatTime(timings.Fajr);
-        document.getElementById('dhuhr-adhan').innerText = formatTime(timings.Dhuhr);
-        document.getElementById('asr-adhan').innerText = formatTime(timings.Asr);
-        document.getElementById('maghrib-adhan').innerText = formatTime(timings.Maghrib);
-        document.getElementById('isha-adhan').innerText = formatTime(timings.Isha);
-
-        // Iqama times (example: Adhan + 15 min)
-        document.getElementById('fajr-iqama').innerText = addMinutes(timings.Fajr, 24);
-        document.getElementById('dhuhr-iqama').innerText = addMinutes(timings.Dhuhr, 26);
-        document.getElementById('asr-iqama').innerText = addMinutes(timings.Asr, 8);
-        document.getElementById('maghrib-iqama').innerText = addMinutes(timings.Maghrib, 8);
-        document.getElementById('isha-iqama').innerText = addMinutes(timings.Isha, 19);
-
-        // Sunrise
-        document.getElementById('sunrise-time').innerText = formatTime(timings.Sunrise);
->>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
     });
 
 function formatTime(time24) {
