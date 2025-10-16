@@ -5,6 +5,7 @@
 }
 
 body {
+<<<<<<< HEAD
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     background: #fafafa;
     min-height: 100vh;
@@ -35,6 +36,22 @@ h1 {
 /* BAR BACKGROUND COLOR */
 .navbar {
     background: linear-gradient(135deg, #81DACA 0%, #b9d5bc 100%);
+=======
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(135deg, #a8d5e2 0%, #7fb8d3 100%);
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
     padding: 15px 0;
     position: relative;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -73,6 +90,7 @@ h1 {
 .nav-menu a:hover {
     opacity: 0.8;
 }
+<<<<<<< HEAD
 .four {
     padding: 60px 0;
 }
@@ -152,6 +170,8 @@ h1 {
         align-items: center;
     }
 }
+=======
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 
 .mobile-menu-btn {
     display: none;
@@ -162,10 +182,16 @@ h1 {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 
 /* BAR BACKGROUND COLOR */
 .palestine-banner {
     background-color: #950606;
+=======
+/* Palestine Banner - Color updated to match nav bar */
+.palestine-banner {
+    background-color: #a8d5e2;
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
     color: white;
     text-align: center;
     padding: 8px 0;
@@ -173,6 +199,7 @@ h1 {
     font-weight: 500;
 }
 
+<<<<<<< HEAD
 .header-section {
     background: white;
     border-radius: 16px;
@@ -298,17 +325,30 @@ h1 {
 
 .hero-new-section {
     background: url('De_Anza.png') no-repeat center center/cover; 
+=======
+/* Hero Section - Background image added */
+.hero-new-section {
+    background: url('De_Anza.png') no-repeat center center/cover; /* Set the image as background */
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
     color: #fff;
     padding: 80px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+<<<<<<< HEAD
     position: relative; 
     z-index: 1; 
 }
 
 
+=======
+    position: relative; /* Needed for overlay */
+    z-index: 1; /* Ensure content is above overlay */
+}
+
+/* Optional: Add an overlay to make text more readable on the image background */
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 .hero-new-section::before {
     content: '';
     position: absolute;
@@ -316,18 +356,31 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     background-color: rgba(0, 0, 0, 0.5); 
     z-index: -1; 
+=======
+    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent overlay */
+    z-index: -1; /* Place behind content */
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 }
 
 .hero-content-left {
     max-width: 600px;
+<<<<<<< HEAD
     z-index: 2; 
 }
 
 /* BACKGROUND COLOR FOR WELCOME TO DE ANZA MSA */
 .welcome-box {
     background-color: #91b38e;
+=======
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.welcome-box {
+    background-color: #7fb8d3;
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
     padding: 8px 16px;
     border-radius: 20px;
     display: inline-block;
@@ -383,6 +436,7 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
+<<<<<<< HEAD
 .card-buttons-events {
     display: flex;
     justify-content: flex-end;
@@ -398,6 +452,8 @@ h1 {
 .card-buttons-events .hero-button-learn {
     order: 1;
 }
+=======
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 .hero-button-learn:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -422,11 +478,19 @@ h1 {
     flex-shrink: 0;
     max-width: 400px;
     width: 100%;
+<<<<<<< HEAD
     z-index: 2; 
 }
 
 .hero-card-new {
     background-color: rgba(230, 240, 242, 0.9); 
+=======
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.hero-card-new {
+    background-color: rgba(230, 240, 242, 0.9); /* Slightly transparent background for readability */
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
     padding: 40px;
     border-radius: 12px;
     color: #333;
@@ -484,9 +548,16 @@ h1 {
     background-color: #f0f0f0;
 }
 
+<<<<<<< HEAD
 
 .programs-section {
     padding: 80px 20px;
+=======
+/* Programs Section */
+.programs-section {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #f8fffe 0%, #f0f9f7 100%);
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 }
 
 .section-title {
@@ -516,6 +587,7 @@ h1 {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
 .subtitle {
     text-align: center;
     font-size: 1.125rem;
@@ -523,6 +595,204 @@ h1 {
     margin-bottom: 48px;
     font-weight: 400;
 }
+=======
+.program-card-row {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 80px;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card-row:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+}
+
+.program-card-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.program-card-image {
+    flex: 1;
+    text-align: center;
+}
+
+.program-card-image img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.program-card-content {
+    flex: 1;
+}
+
+.program-card-content span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #791f2c;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.program-card-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.program-card-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.program-card-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.program-card-content li {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    position: relative;
+    padding: 8px 0 8px 20px;
+    background: #f8f9fa;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    padding-left: 30px;
+}
+
+.program-card-content li::before {
+    content: '✓';
+    color: #d4ac58;
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+}
+
+.program-buttons-row {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.program-button-gold {
+    background-color: #d4ac58;
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.program-button-green {
+    background-color: #2c5530;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.program-button-blue {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.program-button-gold:hover,
+.program-button-green:hover,
+.program-button-blue:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Arabic Classes Section */
+.arabic-classes-section {
+    display: none;
+}
+
+.arabic-classes-card {
+    background: linear-gradient(135deg, #1db584 0%, #0f8a5f 100%);
+    color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 15px 50px rgba(29, 181, 132, 0.2);
+}
+
+.arabic-classes-header {
+    background: rgba(255,255,255,0.1);
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.arabic-classes-content {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.arabic-classes-main h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.arabic-classes-main p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    opacity: 0.95;
+}
+
+.class-levels {
+    margin-bottom: 25px;
+}
+
+.class-level {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #d4ac58;
+}
+
+.class-level strong {
+    color: #d4ac58;
+}
+
+.class-info {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 .register-btn {
     background-color: #d4ac58;
     color: #000;
@@ -534,10 +804,47 @@ h1 {
     display: inline-block;
     transition: all 0.3s ease;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 .register-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(212, 172, 88, 0.3);
 }
+<<<<<<< HEAD
+=======
+
+.program-benefits {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.program-benefits h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #d4ac58;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.benefit-item::before {
+    content: '✓';
+    color: #d4ac58;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 .footer {
     background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
     color: white;
@@ -588,9 +895,16 @@ h1 {
     }
 }
 
+<<<<<<< HEAD
 .prayer-times-section {
     padding: 60px 20px;
     background: transparent;
+=======
+/* Prayer Times Section */
+.prayer-times-section {
+    padding: 60px 20px;
+    background: #f0f9f7;
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
 }
 
 .prayer-times-section .container {
@@ -613,7 +927,11 @@ h1 {
 }
 
 .prayer-times-table tr {
+<<<<<<< HEAD
     background: white;
+=======
+    background: #f8f9fa;
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
     border-radius: 10px;
     transition: all 0.3s ease;
     box-shadow: 0 3px 8px rgba(0,0,0,0.05);
@@ -646,6 +964,7 @@ h1 {
     text-align: center;
     border-left: 5px solid #7fb8d3;
 }
+<<<<<<< HEAD
 
 #gallery-1446 {
     padding: var(--sectionPadding, 3rem 1rem);
@@ -767,3 +1086,5 @@ h1 {
     .form-embed { aspect-ratio: 1 / 1; }
   }
   
+=======
+>>>>>>> a3bfc9db4f5be18deb7926874fc1955bf9d74e96
