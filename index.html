@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Anza MSA - Muslim Student Association</title>
+    <link rel="icon" type="image/png" href="/de_anza_msa_logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="palestine-banner">
+        Building bridges, strengthening bonds 
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">DE ANZA MSA</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+             <!--   <li><a href="contact.html">Contact Us</a></li> -->
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="housing.html">Housing</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+    <main>
+        <section class="hero-new-section" id="home">
+            <div class="hero-content-left">
+                <div class="welcome-box">
+                    <span>Welcome to De Anza MSA</span>
+                </div>
+                <h2>Building the Islamic Community</h2>
+                <p>Join the De Anza Muslim Student Association - where faith meets fellowship, learning meets action, and brothers and sisters unite in purpose.</p>
+                <div class="hero-buttons">
+                    <a href="https://www.instagram.com/deanzamsa/" class="hero-button-join" target="_blank">Follow Our Instagram →</a>
+                    <a href="about.html" class="hero-button-learn">Learn More</a>
+                </div>
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span>100+</span>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="stat">
+                        <span>20+</span>
+                        <p>Events Yearly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content-right">
+                <div class="hero-card-new">
+                    <h3>New Student? Salam!</h3>
+                    <p>We're excited to welcome you to our Muslim community. Connect with fellow students, join our events, and make friendships which we promise will last forever.</p>
+                    <div class="card-buttons">
+                        <a href="https://linktr.ee/deanzamsa?fbclid=PAZXh0bgNhZW0CMTEAAafY1LSaBZHveAzGmwSi66VnpPGHFOPfzLwQ59IoOknsgFYK5w8WX4h_f2vqJQ_aem_ZbzWnVH2q9R7ReKXdp8Y7w" class="card-button-discord" target="_blank">Join Our Discord Community</a>
+                        <!-- Write your comments here<a href="https://quran.com" class="card-button">Browse Study Resources</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="header-section">
+                <h1>De Anza MSA Events</h1>
+                
+                
+                <div class="cycle-info">
+                    Discover our Events and join us for many days of fun
+                </div>
+               
+    
+            <div class="tabs-container">
+                
+                <div class="tabs">
+                    <button class="tab active" onclick="showTab('classic')">Fall 2025</button>
+                </div>
+    
+                <div id="classic" class="tab-content active">
+                    <div class="events-grid">
+                       
+                        
+                   <!-- <div class="events-card">
+                            <span class="events-emoji">🇵🇸</span>
+                            <div class="events-name">SJP and De Anza MSA</div>
+                            <div class="events-description">Learn about the history of palestine with De Anza MSA and De Anza SJP</div>
+                            <div class="card-buttons-events">
+                                <a href="https://www.instagram.com/deanzamsa/" class="hero-button-join" target="_blank"> Register →</a>
+                                
+                            </div> 
+                        </div> -->
+                        <div class="events-card">
+                            <span class="events-emoji">🎮</span>
+                            <div class="events-name">De Anza Game Night</div>
+                            <div class="events-description">Connect with people in De Anza MSA in our annual Game night</div>
+                            <div class="card-buttons-events">
+                                <a href="https://www.instagram.com/deanzamsa/" class="hero-button-join" target="_blank"> (Past) </a>
+                                
+                            </div>
+                        </div>
+                        <div class="events-card">
+                            <span class="events-emoji">🏖️</span>
+                            <div class="events-name">SFSU Beach Bonfire</div>
+                            <div class="events-description">In collaboration with De Anza MSA UC Santa Cruz MSA and SJSU MSA!</div>
+                            <div class="card-buttons-events">
+                                <a href="https://luma.com/8q2e9fo7" class="hero-button-join" target="_blank"> (Past) </a>
+                                
+                            </div>
+                        </div>
+                        <div class="events-card">
+                            <span class="events-emoji">🧺</span>
+                            <div class="events-name">MSA Fall Picnic</div>
+                            <div class="events-description">Join UC Santa Cruz's Picnic in collaboration with 9 NorCal MSAs </div>
+                            <div class="card-buttons-events">
+                                <a href="https://luma.com/pvm3wnc5" class="hero-button-join" target="_blank"> (Past) </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                     </div>   
+
+        <section class="prayer-times-section">
+            <div class="container">
+                <h2 class="main-title">Today's Prayer Times</h2>
+                <p id="hijri-date" class="hijri-date">--</p>
+                <table class="prayer-times-table">
+                    <tr>
+                        <td>Fajr</td>
+                        <td>
+                            <span class="label">Adhan</span>
+                            <p id="fajr-adhan">--</p>
+                            <span class="label">Iqama</span>
+                            <p id="fajr-iqama">--</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sunrise</td>
+                        <td colspan="1" class="sunrise">
+                            <p id="sunrise-time">--</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dhuhr</td>
+                        <td>
+                            <span class="label">Adhan</span>
+                            <p id="dhuhr-adhan">--</p>
+                            <span class="label">Iqama</span>
+                            <p id="dhuhr-iqama">--</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Asr</td>
+                        <td>
+                            <span class="label">Adhan</span>
+                            <p id="asr-adhan">--</p>
+                            <span class="label">Iqama</span>
+                            <p id="asr-iqama">--</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maghrib</td>
+                        <td>
+                            <span class="label">Adhan</span>
+                            <p id="maghrib-adhan">--</p>
+                            <span class="label">Iqama</span>
+                            <p id="maghrib-iqama">--</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Isha</td>
+                        <td>
+                            <span class="label">Adhan</span>
+                            <p id="isha-adhan">--</p>
+                            <span class="label">Iqama</span>
+                            <p id="isha-iqama">--</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        
+
+    <footer class="footer">
+        <p>© Copyright 2025, All Rights Reserved by De Anza Msa</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
